@@ -1,0 +1,21 @@
+{
+    "name": "GGolfzTheme",
+    "displayName": "GGolfzTheme",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.53.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "GGolfzTheme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/GGolfzTheme-color-theme.json"
+            }
+        ]
+    }
+}
