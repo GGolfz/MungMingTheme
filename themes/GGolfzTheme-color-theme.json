@@ -2,10 +2,10 @@
 	"name": "GGolfzTheme",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#263238",
-		"editor.foreground": "#eeffff",
-		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
+		"editor.background": "#263238", // Background of Editor 
+		"editor.foreground": "#eeffff", // Normal Text of Editor
+		"activityBarBadge.background": "#007acc", // Circle background color in active bar
+		"sideBarTitle.foreground": "#bbbbbb" //Expand Sidebar title color
 	},
 	"tokenColors": [
 		{
@@ -15,8 +15,8 @@
 				"punctuation.definition.comment"
 			],
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#546E7A"
+				"fontStyle": "italic", // Text style of comment (Can be Italic Bold Underline) [More than 1]
+				"foreground": "#546E7A" // Text Color of comment
 			}
 		},
 		{
@@ -26,7 +26,7 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#EEFFFF" // variable color
 			}
 		},
 		{
@@ -56,7 +56,7 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#C792EA" // Keyword Color (const let break)
 			}
 		},
 		{
