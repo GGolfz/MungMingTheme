@@ -18,6 +18,13 @@
 		"breadcrumb.focusForeground": "#ff0000",
 		"breadcrumb.foreground": "#cccccc",
 		"breadcrumbPicker.background": "#d19282",
+		"sideBar.background": "#2aa",
+		"sideBar.border": "#ff0000",
+		"sideBar.foreground": "#ffffff",
+		"sideBarSectionHeader.background": "#daaaab",
+		"sideBarSectionHeader.border": "#ffaaab",
+		"sideBarSectionHeader.foreground": "#cccccc",
+		"sideBarTitle.foreground": "#ffffff",
 	},
 	"tokenColors": [
 	]
