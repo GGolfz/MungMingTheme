@@ -109,7 +109,8 @@
 		"notificationsInfoIcon.foreground": "#FF5C8A",
 		"notifications.foreground": "#ffffff",
 		"settings.headerForeground": "#000000",
-		
+		"welcomePage.buttonBackground": "#FAD2E1",
+		"welcomePage.buttonHoverBackground": "#BDB2FF"
 	},
 	"tokenColors": [
 	]
