@@ -1,6 +1,6 @@
 {
-    "name": "GGolfzTheme",
-    "displayName": "GGolfzTheme",
+    "name": "mungmingtheme",
+    "displayName": "MungMingTheme",
     "description": "",
     "version": "0.0.1",
     "engines": {
@@ -12,9 +12,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "GGolfzTheme",
+                "label": "MungMingTheme",
                 "uiTheme": "vs-dark",
-                "path": "./themes/GGolfzTheme-color-theme.json"
+                "path": "./themes/MungMingTheme-color-theme.json"
             }
         ]
     }
