@@ -110,7 +110,11 @@
 		"notifications.foreground": "#ffffff",
 		"settings.headerForeground": "#000000",
 		"welcomePage.buttonBackground": "#FAD2E1",
-		"welcomePage.buttonHoverBackground": "#BDB2FF"
+		"welcomePage.buttonHoverBackground": "#BDB2FF",
+		"editorHoverWidget.foreground": "#ffffff",
+		"editorCodeLens.foreground": "#735D78",
+		"editorBracketMatch.border": "#735D78",
+		"editorBracketMatch.background": "#FAD2E1",
 	},
 	"tokenColors": [
 	]
