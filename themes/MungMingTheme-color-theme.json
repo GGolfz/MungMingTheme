@@ -97,7 +97,7 @@
 		"editorSuggestWidget.border": "#FAD2E1",
 		"editorSuggestWidget.foreground": "#735D78",
 		"editorSuggestWidget.highlightForeground": "#FFFFFF",
-		"editorSuggestWidget.selectedBackground": "#735D78",
+		"editorSuggestWidget.selectedBackground": "#ffffff",
 		"editorCursor.foreground": "#BDB2FF",
 		"minimap.background": "#F9E9EC",
 		"minimap.selectionHighlight": "#BDB2FF",
@@ -116,7 +116,7 @@
 		"editorBracketMatch.border": "#735D78",
 		"editorBracketMatch.background": "#FAD2E1",
 		"editor.wordHighlightBackground": "#CEDDFF",
-		"editor.wordHighlightStrongBackground": "#ACC5FD"
+		"editor.wordHighlightStrongBackground": "#ACC5FD",
 	},
 	"tokenColors": [
 		{
@@ -157,7 +157,7 @@
 		},
 		{
 			"name": "String",
-			"scope":"string",
+			"scope":["string","markup.inline.raw","markup.quote"],
 			"settings": {
 				"foreground": "#92af5c",
 			}
@@ -190,5 +190,20 @@
 				"foreground": "#ff5e5e",
 			}
 		},
+		{
+			"name": "Markdown Header",
+			"scope":"markup.heading",
+			"settings": {
+				"foreground": "#b99cfe",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markdown List",
+			"scope":["punctuation.definition.list.begin.markdown"],
+			"settings": {
+				"foreground": "#ff8400",
+			}
+		}
 	]
 }
